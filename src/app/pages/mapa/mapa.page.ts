@@ -30,7 +30,7 @@ export class MapaPage implements OnInit, AfterContentInit {
 
   ngAfterContentInit() {
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoicGlsaW1zIiwiYSI6ImNrYWd6MWhleDBiZDQyc28wc2ZxeTZzb2MifQ.vyGwE-qo6fI33QGIFhthKg';
+    mapboxgl.accessToken = 'apiKey deleted';
 
     const map = new mapboxgl.Map({
         style: 'mapbox://styles/mapbox/light-v10',
