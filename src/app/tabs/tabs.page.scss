@@ -1,0 +1,17 @@
+ion-tab-bar {
+    --background: rgb(150, 150, 150);
+}
+
+.container-tab {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    position: relative;
+    top: 5%;
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+}
